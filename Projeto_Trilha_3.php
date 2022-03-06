@@ -1,4 +1,4 @@
-<?php include_once("index.html"); ?>
+
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -35,6 +35,7 @@
 </head>
 
 <body>
+  <?php include_once("Projeto_Trilha_3.html"); ?>
 
   <section class="container mx-auto bg-light mt-1 w-90" aria-labelledby="barra_acessibilidade">
     <header class="row">
