@@ -10,18 +10,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <style>
-    .hide-element {
-      border: 0;
-      clip: rect(1px 1px 1px 1px);
-      clip: rect(1px, 1px, 1px, 1px);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-    }
 
     .alignn {
       display: block;
@@ -144,27 +132,7 @@
     crossorigin="anonymous"></script>
   <noscript>Atualize seu navegador</noscript>
 
-  <script>
-    // Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
-    (function () {
-      'use strict';
-      window.addEventListener('load', function () {
-        // Pega todos os formulários que nós queremos aplicar estilos de validação Bootstrap personalizados.
-        var forms = document.getElementsByClassName('needs-validation');
-        // Faz um loop neles e evita o envio
-        var validation = Array.prototype.filter.call(forms, function (form) {
-          form.addEventListener('submit', function (event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    })();
-
-  </script>
+  
 
 </body>
 
